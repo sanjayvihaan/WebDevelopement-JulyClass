@@ -28,5 +28,14 @@
         h1-h6: h1 is like highest priority and important in a web pages, we need to use it only once in a single web pages.
     2. Paragraphs tags
     3. Image
-    4. lists 
+        <img>
+        src: Source of the image or Link
+    4. lists :
+        i. Ordered lists
+        ii. Unordered lists
     5. Comments
+        <!-- The way to write the comment-->
+    6. HTML Link
+        <a></a>
+        href: The doc or the url to visit the page
+        target: Specifies where to open the page or document
