@@ -1,0 +1,32 @@
+# Day 1
+    1. Internet
+    2. http/https
+    3. URL Structure
+    4. Creating an HTML File
+        Boiler template code - shift+1 = !
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html>
+
+        <!DOCTYPE html> - To understand with is my file.
+        <html></html> - It is just a "Hyper text markup language" 
+        lang="en" - En: English Content (Optional in the code base)
+        head - The part where we write and add all the title and styling of the webpages or website
+        <body></body> - This part is used to write all my body of the contents.
+
+
+# Day 2 - 04/07
+    1. Heading tags 
+        h1-h6: h1 is like highest priority and important in a web pages, we need to use it only once in a single web pages.
+    2. Paragraphs tags
+    3. Image
+    4. lists 
+    5. Comments
