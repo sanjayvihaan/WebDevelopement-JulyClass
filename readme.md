@@ -39,3 +39,12 @@
         <a></a>
         href: The doc or the url to visit the page
         target: Specifies where to open the page or document
+
+# Day 3 - 05/07
+    1. Formatting Tags
+    2. Favicon
+    3. Div
+    4. Classes
+    5. Id
+    6. iframes
+    6. Forms
