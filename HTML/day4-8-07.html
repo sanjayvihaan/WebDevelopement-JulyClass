@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - Web Development</title>
+
+    <style>
+        .colorValue {
+            background-color: rgb(255, 0, 0); /* r-red, g-green, b-blue (0 - 255) */
+            width: 100px;
+            height: 100px;
+        }
+
+        .colorValue1 {
+            background-color: #00ff00; /* HEX color code #RRGGBB - 6 codes 00-ff*/
+            width: 100px;
+            height: 100px;
+        }
+
+        .colorValue2 {
+            background-color: rgba(255, 0, 0, 0.5); /* r-red, g-green, b-blue, a-alpha (0 - 1) */
+            height: 200px;
+            width: 200px;
+        }
+        .colorValue3 {
+            background-color: hsl(240, 100%, 50%, 0.5); /* h-hue, s-saturation, l-lightness 0 - 360, a-alpha(0-1) */
+            height: 400px;
+            width: 400px;
+        }
+
+        video{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="background-color: green; color:white">HTML Colors</h2>
+    <p>HTML Colors are specified with predefined color names, RGB, HEX, RGBA, HSL, HSLA values</p>
+
+    <div class="colorValue"></div>
+    <div class="colorValue1"></div>
+    <div class="colorValue2"></div>
+    <div class="colorValue3"></div>
+
+    <br><hr>
+
+    <h2>HTML Forms</h2>
+    <p>An HTML Forms is used to collect user input. The user input is most often send to the server for processing the data</p>
+
+    <form>
+        <label for="firstName">First Name</label><br>
+        <input type="text" required> <br>
+
+        <label for="lastName">Last Name</label> <br>
+        <input type="text" required> <br>
+
+        <label for="email">Email Id</label> <br>
+        <input type="email" required> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" required> <br>
+
+        <label for="DOB">Date of Birth</label><br>
+        <input type="date" required><br>
+
+        <input type="checkbox">
+        <label for="terms">I agree to the terms and conditions</label><br>
+
+        <input type="radio" value="HTML">
+        <label for="course">HTML</label><br>
+        <input type="radio" value="CSS">
+        <label for="course">CSS</label><br>
+        <input type="radio" value="JS">
+        <label for="course">JS</label><br>
+
+
+        <input type="color" name="" id="">
+
+        <input type="range">
+
+        <input type="submit">
+        <!-- <button>Submit</button> -->
+
+        <!-- 
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        -->
+    </form>
+
+    <br><hr>
+
+    <h2>HTML File Path</h2>
+    <p>It is to describe the location of a file in a web site's folder structure</p>
+
+    <img src="html.jpg" width="50%" alt=""> <!--html.jpg image is located in the same folder as the current page-->
+    <!-- <img src="images/htmlfavicon.webp" width="50%" alt=""> The image is located in the images folder in the current folder -->
+    <!-- <img src="/assets/Revenue-bro.png" width="50%" alt=""> The file is located in the assests folder at the root of the current web page -->
+    <!-- <img src="../assets/Revenue-bro.png" alt=""> The image file is located in the folder one level up from the current folder -->
+
+    <br><hr>
+
+    <h2>HTML Video and Audio</h2>
+    <p>The HTML video element is used to show a video on a web page.</p>
+    <p>The HTML audio element is used to play an audio file on a web page.</p>
+
+    <video width="35%" height="800px" controls muted>
+        <source src="/assets/media/Waterfall model in Software engineering - Software development Life Cycle - SDLC.mp4" type="video/mp4">
+    </video>
+
+    <audio controls>
+        <source src="/assets/media/sulthana.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>

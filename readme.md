@@ -48,3 +48,10 @@
     5. Id
     6. iframes
     6. Forms
+
+# Day 4 - 08/07
+    1. HTML Colors
+    2. HTML Forms
+    3. HTML File Path
+    4. HTML Video and Audio
+    5. HTML Tables
