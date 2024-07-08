@@ -54,4 +54,4 @@
     2. HTML Forms
     3. HTML File Path
     4. HTML Video and Audio
-    5. HTML Tables
+    5. HTML Tables - Next Class
