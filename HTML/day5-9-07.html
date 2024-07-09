@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Web Development</title>
+
+    <link rel="icon" href="./htmlfavicon.webp">
+    <link rel="stylesheet" href="">
+
+    <meta name="description" content="This page is to learn about the html head, table, layouts and css baiscs">
+    <meta name="keywords" content="HTML, CSS, Layouts, HTML Table etc">
+
+
+
+    <style>
+        table, th, tr, td {
+            border: 2px solid blue;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+
+    </style> <!-- Internal CSS -->
+</head>
+<body>
+    <h2>HTML Head</h2>
+    <p>Html head is like a element, in this we can include title, style, meta, link, script</p>
+
+    <h3>HTML Head element</h3>
+    1. head: Defines the information about the document<br>
+    2. title: Defines the title of the document<br>
+    3. link: Defines the relationship between the current document and an external resource<br>
+    4. style: Defines the style information for the document to visually look good<br>
+
+    <br><hr>
+
+    <h2>HTML Table</h2>
+    <p>HTML table is used to display data in tabular form (row and column)</p>
+
+    <h3>HTML Example</h3>
+    <p>What are the tags we have</p>
+    <ul>
+        <li>tr - table row</li>
+        <li>th - table header</li>
+        <li>td - table data</li>
+    </ul>
+
+    <ul>
+        <li>Colspan: To make the col span over the multiple columns</li>
+        <li>Rowspan: To make the row span over the the multiple rows</li>
+    </ul>
+
+    <table class="details" style="width: 100%;">
+        <tr>
+            <th style="width: 5%;">SL No</th>
+            <th>Name</th>
+            <th style="width: 40%;">Email Id</th>
+            <th>Mobile No</th>
+            <th>Verification</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>ram@gmail.com</td>
+            <td>9055569995</td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td rowspan="2">SS</td>
+            <td>ss@gmail.com</td>
+            <td>8055569990</td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Ran</td>
+            <td>ran@gmail.com</td>
+            <!-- <td>7011169993</td>
+            <td>Yes</td> -->
+            <td colspan="2">No data is Added</td>
+        </tr>
+    </table>
+</body>
+</html>

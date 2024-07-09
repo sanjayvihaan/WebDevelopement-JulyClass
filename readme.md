@@ -55,3 +55,74 @@
     3. HTML File Path
     4. HTML Video and Audio
     5. HTML Tables - Next Class
+
+# Day 5 - 09/07
+    1. HTML Head
+    2. HTML Tables
+    3. HTML Layouts
+        <header> - Defines a header for the document or a section
+        <nav> - To set the navigation for our webpage or website
+        <section> - It will be used as a section in a document for our webpage or website
+        <aside> - Like a sidebar for our page
+        <footer> - It defines to have a footer in our webpage or website
+    4. Basic CSS
+
+
+### Project: Personal Portfolio Webpage (Day 5)
+
+Create a personal portfolio webpage that showcases your skills, projects, and contact information. This project will incorporate all the HTML topics you've covered.
+
+#### Project Requirements:
+
+1. **Heading Tags (h1-h6)**
+   - **Task:** Use `<h1>` for your main page title (e.g., "John Doe - Web Developer"). Use `<h2>` for section titles (e.g., "About Me", "Projects", "Contact"). Use `<h3>` to `<h6>` as needed within sections for subheadings.
+
+2. **Paragraph Tags**
+   - **Task:** Add descriptive paragraphs about yourself, your skills, and your projects.
+
+3. **Images (`<img>`)**
+   - **Task:** Include a professional profile picture using the `<img>` tag. Add images/screenshots of your projects.
+
+4. **Lists:**
+   - **Ordered Lists**
+     - **Task:** Create an ordered list of your work experience or project timeline.
+   - **Unordered Lists**
+     - **Task:** Create an unordered list of your skills or hobbies.
+
+5. **Comments**
+   - **Task:** Use comments to document your code and explain different sections.
+
+6. **HTML Links (`<a>`)**
+   - **Task:** Add links to your social media profiles (LinkedIn, GitHub, etc.) and other relevant websites. Include links to your projects if they are hosted online.
+
+7. **Formatting Tags**
+   - **Task:** Use formatting tags to emphasize important information (e.g., `<b>` for bold text, `<i>` for italic text, `<u>` for underlined text).
+
+8. **Favicon**
+   - **Task:** Add a favicon to your webpage. Choose a small icon that represents you or your brand.
+
+9. **Div**
+   - **Task:** Use `<div>` tags to structure your webpage into sections (e.g., header, about, projects, contact).
+
+10. **Classes and IDs**
+    - **Task:** Use classes and IDs to style your sections with CSS. Apply different styles to various parts of your webpage.
+
+11. **Iframes**
+    - **Task:** Embed a map showing your location or an embedded video relevant to your work using the `<iframe>` tag.
+
+12. **Forms**
+    - **Task:** Create a contact form with fields for name, email, and message. Include a submit button.
+
+13. **HTML Colors**
+    - **Task:** Use inline styles or a separate CSS file to add colors to your text and background.
+
+14. **HTML File Path**
+    - **Task:** Use relative and absolute paths to link your images and other files correctly.
+
+15. **HTML Video and Audio**
+    - **Task:** Add a short introduction video or an audio clip about yourself or your projects.
+
+16. **HTML Tables**
+    - **Task:** Use an HTML table to display your skills or work experience in a structured format.
+
+By completing this project, you'll have a comprehensive personal portfolio webpage that incorporates all the HTML elements you've learned.
