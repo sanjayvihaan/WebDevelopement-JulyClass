@@ -126,3 +126,27 @@ Create a personal portfolio webpage that showcases your skills, projects, and co
     - **Task:** Use an HTML table to display your skills or work experience in a structured format.
 
 By completing this project, you'll have a comprehensive personal portfolio webpage that incorporates all the HTML elements you've learned.
+
+
+# Day 6 - 10-07-24
+    1. CSS Introduction
+        a. CSS is used to make our webpage or website to look good and appeal great
+        b. It is used to make our website responsive in all the devices
+        c. It controls the layout of multiple web pages (website) all at once.
+
+    2. CSS Syntax:
+        selectors {property: value; property: value}
+        class selector, id selector, element selector etc
+
+        <h2 class="heading" id="head">HTML Table</h2>
+
+        .heading {color: blue; font-size: 50px;} - Way of writing using Class Selector
+
+        #head {color: green; font-size: 30px;} - Way of writing using Id Selector
+
+        h2 {color: red; font-size:20px;} - Way of writing using Element Selector
+
+    3. What are ways to write CSS
+        a. Inline CSS
+        b. Internal CSS
+        c. External CSS - 
