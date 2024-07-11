@@ -150,3 +150,36 @@ By completing this project, you'll have a comprehensive personal portfolio webpa
         a. Inline CSS
         b. Internal CSS
         c. External CSS - 
+
+# Day 7 - 11-07-24
+    1. Way of writing CSS:
+        a. External CSS
+    2. CSS Comments
+        /* This is the way to write the css comments */
+    3. CSS Backgrounds
+        a. background-color
+        b. background-image
+        c. background-repeat
+        d. background-position
+        e. background (shorthand)
+        f. background-attachment
+        
+    4. CSS Borders : The css borders properties allow us to specify the style, width and color for an element's border
+        a. Border width
+        b. Border color
+        c. Border sides
+        d. Border Shorthand
+        e. Rounded borders
+        f. border-style:
+            solid - Defines a solid border
+            dotted - Defines a dotted border
+            dashed - Defines a dashed border
+            double - Defines a double border
+            groove - Defines a 3D grooved border. The effect depends on the border-color value
+            ridge - Defines a 3D ridged border. The effect depends on the border-color value
+            inset - Defines a 3D inset border. The effect depends on the border-color value
+            outset - Defines a 3D outset border. The effect depends on the border-color value
+            none - Defines no border
+            hidden - Defines a hidden border
+    5. CSS Margin
+

@@ -1,0 +1,111 @@
+h2 {
+    color: red;
+}
+
+/* This is the way to write the css comments */
+
+
+/* Background Properties */
+
+
+/* Background Color */
+.bg-color {
+    background-color: lightcoral;
+
+    /*background-color: rgb(255, 0, 0);
+    background-color: #ff0000;
+    background-color: hsl(0, 100%, 50%);*/
+}
+
+.background__prop {
+    background-color: green;
+}
+
+/* background Image */
+
+/* .bg-color {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*cl7fc6pt1MHjIF4K.png");
+
+    background-image: url("/HTML/html.jpg");
+} */
+
+/* .bg__img {
+    background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+
+
+/* background-repead */
+
+/* .bg-color {
+    background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg");
+    background-repeat: no-repeat;
+
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+} */
+
+/* background-position */
+
+.bg__img {
+    background-position: center;
+}
+
+
+
+/* background-attachment */
+
+.bg-color{
+    /* background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg"); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+/* background (shorthand) */
+
+/* .bg-color {
+    background: #fff url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg") no-repeat right top fixed;
+} */
+
+
+/* Full Background Image on screen */
+
+body, html {
+    height: 100%;
+    /* margin: 0; */
+}
+
+.bg-color {
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg"); */
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    color: black;
+}
+
+/* CSS Border */
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: slateblue;
+    border-left-style: dotted;
+    border-top-style: dashed;
+    border-top-color: aqua;
+}
+
+/* border shorthand */
+
+.border {
+    border: 3px solid green;
+    border-radius: 8px;
+}
